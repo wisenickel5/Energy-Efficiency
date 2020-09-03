@@ -2,9 +2,10 @@
 
 ### Project Overview-
 ---
-The follwing M.L. model aims to develop heating and cooling load requirements for buildings from their construction parameters.
+The follwing M.L. models aim to develop heating and cooling load requirements for buildings from their construction parameters.
 Using Tensorflow, Sklearn, and Pandas in a Conda Environment, the goal of this model was to simulate a comparable 
 "Line of best fit" to that of real world conditions while training on only 10% of the following dataset: https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
+There are 2 working programs, one calculating cooling requirements, the other finding heating.
 ---
 ### Program Outline-
 The program workflow begins by reading in the dataset via a .csv formatting and creating two arrays from the dataset;
